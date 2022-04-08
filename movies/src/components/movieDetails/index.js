@@ -23,6 +23,7 @@ const chip = { margin: 0.5 };
 
 const MovieDetails = ({ movie }) => {  // Don't miss this!
   const [drawerOpen, setDrawerOpen] = useState(false);
+
   return (
     <>
       <Typography variant="h5" component="h3">
@@ -90,4 +91,4 @@ const MovieDetails = ({ movie }) => {  // Don't miss this!
       </>
   );
 };
-export default MovieDetails ;
+export default  MovieDetails ;
