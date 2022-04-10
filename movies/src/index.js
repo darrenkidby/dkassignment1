@@ -7,9 +7,12 @@ import FavoriteMoviesPage from "./pages/favoriteMoviesPage";
 import MovieReviewPage from "./pages/movieReviewPage";
 import SiteHeader from './components/siteHeader';
 import UpcomingMoviesPage from "./pages/upcomingMovies";
+<<<<<<< HEAD
 import TrendingMoviesPage from "./pages/trendingMovies";
 import StreamingMoviesPage from "./pages/streamingMovies";
 import TopMoviesPage from "./pages/topMovies";
+=======
+>>>>>>> f276805fd5d3114fed72934db034dfbfb80c8e68
 import { QueryClientProvider, QueryClient } from "react-query";
 import { ReactQueryDevtools } from 'react-query/devtools';
 import MoviesContextProvider from "./contexts/moviesContext";
@@ -37,9 +40,12 @@ const App = () => {
           <Route path="/movies/favorites" element={<FavoriteMoviesPage />} />
           <Route path="/movies/:id" element={<MoviePage />} />
           <Route path="/movies/upcoming" element={< UpcomingMoviesPage />} />
+<<<<<<< HEAD
           <Route path="/movies/trending" element={< TrendingMoviesPage />} />
           <Route path="/movies/streaming" element={< StreamingMoviesPage />} />
           <Route path="/movies/top" element={< TopMoviesPage />} />
+=======
+>>>>>>> f276805fd5d3114fed72934db034dfbfb80c8e68
           <Route path="/" element={<HomePage />} />
           <Route path="*" element={ <Navigate to="/" /> } />
         </Routes>

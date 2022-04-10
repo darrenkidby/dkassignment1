@@ -12,6 +12,7 @@ export const getMovies = () => {
   });
 };
 
+<<<<<<< HEAD
 export const getTrendingMovies = () => {
   return fetch(
     `https://api.themoviedb.org/3/movie/popular?api_key=${process.env.REACT_APP_TMDB_KEY}&language=en-US&page=1`
@@ -55,6 +56,8 @@ export const getTopMovies = () => {
 };
 
 
+=======
+>>>>>>> f276805fd5d3114fed72934db034dfbfb80c8e68
   export const getUpcomingMovies = () => {
     return fetch(
       `https://api.themoviedb.org/3/movie/upcoming?api_key=${process.env.REACT_APP_TMDB_KEY}&language=en-US&page=1`
