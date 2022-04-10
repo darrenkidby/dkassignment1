@@ -25,17 +25,11 @@ const SiteHeader = ({ history }) => {
 
   const menuOptions = [
     { label: "Home", path: "/" },
-<<<<<<< HEAD
     { label: "Favourites", path: "/movies/favorites" },
     { label: "Upcoming", path: "/movies/upcoming" },
     { label: "Trending", path: "/movies/trending" },
     { label: "Streaming", path: "/movies/streaming" },
     { label: "Top Rated", path: "/movies/top" },
-=======
-    { label: "Favorites", path: "/movies/favorites" },
-    { label: "Upcoming", path: "/movies/upcoming" },
-    { label: "Option 4", path: "/" },
->>>>>>> f276805fd5d3114fed72934db034dfbfb80c8e68
   ];
 
   const handleMenuSelect = (pageURL) => {
